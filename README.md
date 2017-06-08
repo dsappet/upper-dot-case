@@ -38,5 +38,5 @@ MIT
 [npm-url]: https://npmjs.org/package/upper-dot-case
 [downloads-image]: https://img.shields.io/npm/dm/upper-dot-case.svg?style=flat
 [downloads-url]: https://npmjs.org/package/upper-dot-case
-[travis-image]: https://img.shields.io/npm/dm/upper-dot-case.svg?style=flat
-[travis-url]: https://npmjs.org/package/upper-dot-case
+[travis-image]: https://travis-ci.org/dsappet/upper-dot-case.svg?branch=master&style=flat
+[travis-url]: https://travis-ci.org/dsappet/upper-dot-case
