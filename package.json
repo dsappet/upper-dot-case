@@ -7,7 +7,7 @@
   "files": [
     "upper-dot-case.js",
     "upper-dot-case.d.ts",
-    "LICENSE"
+    "LICENSE.md"
   ],
   "scripts": {
     "lint": "standard",
