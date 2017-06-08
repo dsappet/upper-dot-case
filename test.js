@@ -3,6 +3,7 @@ var assert = require('assert')
 var upperDotCase = require('./')
 
 describe('dot case', function () {
+  this.timeout(15000)
   it('should dot case a single word', function () {
     assert.equal(upperDotCase('test'), 'Test')
     assert.equal(upperDotCase('TEST'), 'Test')
@@ -36,6 +37,7 @@ describe('dot case', function () {
     try {
       assert.equal(upperDotCase('.MY STRING'), 'My.String')
       assert.equal(upperDotCase('MY STRING.'), 'My.String')
+      done()
     } catch (e) {
       done(e)
     }
