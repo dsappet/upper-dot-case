@@ -1,0 +1,45 @@
+{
+  "name": "upper-dot-case",
+  "version": "1.0.0",
+  "description": "Upper dot case a string",
+  "main": "upper-dot-case.js",
+  "typings": "upper-dot-case.d.ts",
+  "files": [
+    "upper-dot-case.js",
+    "upper-dot-case.d.ts",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test-spec": "mocha -- -R spec --bail",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+    "test": "npm run lint && npm run test-cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsappet/upper-dot-case.git"
+  },
+  "keywords": [
+    "dot",
+    "case",
+    "period"
+  ],
+  "author": {
+    "name": "Douglas Sappet",
+    "email": "dsappet@gmail.com",
+    "url": "https://github.com/dsappet"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsappet/upper-dot-case/issues"
+  },
+  "homepage": "https://github.com/dsappet/upper-dot-case",
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "mocha": "^3.0.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "no-case": "^2.2.0"
+  }
+}
