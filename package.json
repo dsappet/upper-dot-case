@@ -1,6 +1,6 @@
 {
   "name": "upper-dot-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Upper dot case a string",
   "main": "upper-dot-case.js",
   "typings": "upper-dot-case.d.ts",
