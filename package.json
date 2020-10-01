@@ -37,7 +37,7 @@
   "devDependencies": {
     "istanbul": "^0.4.3",
     "mocha": "^3.0.0",
-    "standard": "^10.0.2"
+    "standard": "^14.3.4"
   },
   "dependencies": {
     "no-case": "^2.2.0"
